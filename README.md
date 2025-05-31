@@ -6,9 +6,11 @@
 
 # Python project: 
 ###Configuration part  
-from pyspark.sql.functions import col
-from pyspark.sql.types import IntegerType, DoubleType, BooleanType, DateType
 
+![image](https://github.com/user-attachments/assets/e63c7115-ae10-448b-84c6-7494d27dce56)
+
+### Data 
+![image](https://github.com/user-attachments/assets/62f02bb2-42f3-4076-9a25-01802efa492b)
 
 
 ## 1. Bar Chart – Compare the worldwide gross of each movie.
