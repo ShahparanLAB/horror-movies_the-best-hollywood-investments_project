@@ -4,9 +4,8 @@
 
 
 
-# Python project: 
-###Configuration part  
 
+# Python project: ##Configuration part  
 ![image](https://github.com/user-attachments/assets/e63c7115-ae10-448b-84c6-7494d27dce56)
 
 ### Data 
