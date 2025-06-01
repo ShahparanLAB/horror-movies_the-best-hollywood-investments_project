@@ -1,5 +1,12 @@
 # Horror Movies Data Analysis Project
 
+## Tools Used:
+	Data Factory 
+	Data Lake Gen2_Raw-Data
+	Azure Databricks
+	Data Lake Den2_ Transform-Data
+	Azure Synapse Analytics 
+	PowerBI 
 
 
 
