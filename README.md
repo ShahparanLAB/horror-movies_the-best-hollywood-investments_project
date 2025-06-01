@@ -10,8 +10,6 @@
 
 
 
-
-
 # Python project: 
 ###Configuration part  
 ![image](https://github.com/user-attachments/assets/e63c7115-ae10-448b-84c6-7494d27dce56)
@@ -59,6 +57,33 @@ This boxplot visualization, created using Seaborn and Matplotlib, offers a compe
 
 This analysis presents a comparative visualization of production budgets across various movie genres using Seaborn and Matplotlib. By leveraging boxplots, the study highlights budget distributions for Comedy, Action, Adventure, Drama, and Horror films, offering insights into financial allocation trends within the film industry. The findings provide a clear perspective on budget variations, helping to understand how different genres are financed and produced.
 ![image](https://github.com/user-attachments/assets/911783b2-5d97-4148-aae7-def6e5622df2)
+
+
+# Azure Snyape analytaic_SQL Project 
+
+###Executed SQL queries on the [moviedata] table to analyze budgets, box office performance, genres, and distributors. Extracted key insights like top-grossing films, profitability, and yearly trends—demonstrating strong data analysis skills for business intelligence in the film industry.
+![Top10](https://github.com/user-attachments/assets/5c0d29fc-5827-4042-9b2f-40ab3e174b2f)
+![Screenshot 2025-06-01 143908](https://github.com/user-attachments/assets/a5ae4b72-caf2-4dfe-b1bd-0b5d9986547d)
+![Scatter](https://github.com/user-attachments/assets/02436fbf-827e-4779-9efa-4ebe052174fd)
+![MapRating](https://github.com/user-attachments/assets/ade7d6ab-2463-40ad-9a86-ee8f95206fd7)
+![Area_Chart](https://github.com/user-attachments/assets/618597d7-49b7-4068-ac0c-2d537565c2a1)
+![SQL script 2](https://github.com/user-attachments/assets/a6f5a61a-ef2e-465b-9889-f6f0c859b064)
+![image](https://github.com/user-attachments/assets/41f43033-392c-4763-8947-6d5f03e22c80)
+![image](https://github.com/user-attachments/assets/30522e93-950e-4155-85e2-d84a3dbab6b8)
+![image](https://github.com/user-attachments/assets/9f1e5907-9cc3-4961-8a06-880e3c78629b)
+![image](https://github.com/user-attachments/assets/479c0d56-4336-4e2b-ac51-b12aba0c6274)
+![image](https://github.com/user-attachments/assets/b9f25bd4-4ffd-4a66-a45c-dd966b102e6d)
+![image](https://github.com/user-attachments/assets/358ac376-07b1-4743-a4c8-439d2d8aadc0)
+![image](https://github.com/user-attachments/assets/58e19752-a6b6-4a8a-82fb-1f05a6ab1c47)
+![image](https://github.com/user-attachments/assets/01db4777-f933-467e-9155-8b5ccad263b9)
+![image](https://github.com/user-attachments/assets/8cbe3c63-3a09-49c3-9823-5441dd63c690)
+
+## Summary:
+We performed a series of insightful SQL queries on a movie dataset from the [HorrorMovieDB].[dbo].[moviedata] table to analyze production budgets, box office performance, genre trends, and distributor impact. Key highlights include identifying top-grossing films, evaluating profitability, filtering data by ratings and genres, and summarizing metrics by year and distributor. These queries demonstrate practical data extraction, aggregation, and optimization skills that support business intelligence and decision-making in the entertainment industry.
+
+
+
+
 
 
 
