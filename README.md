@@ -65,6 +65,8 @@ This boxplot visualization, created using Seaborn and Matplotlib, offers a compe
 This analysis presents a comparative visualization of production budgets across various movie genres using Seaborn and Matplotlib. By leveraging boxplots, the study highlights budget distributions for Comedy, Action, Adventure, Drama, and Horror films, offering insights into financial allocation trends within the film industry. The findings provide a clear perspective on budget variations, helping to understand how different genres are financed and produced.
 ![image](https://github.com/user-attachments/assets/911783b2-5d97-4148-aae7-def6e5622df2)
 
+## Summary
+Developed a data-driven Python project to explore movie financials through visual storytelling. Created bar charts to compare worldwide gross per movie and pie charts to illustrate production budget distribution across genres. Used heatmaps to reveal correlations between key financial metrics and histograms to analyze the spread of gross earnings. Enhanced insights further with box plots and violin plots to examine budget patterns and genre-specific distributions.
 
 # Azure Snyape analytaic_SQL Project 
 
