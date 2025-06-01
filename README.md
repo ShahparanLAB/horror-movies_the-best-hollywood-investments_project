@@ -8,6 +8,8 @@
 ### 	Azure Synapse Analytics 
 ### 	PowerBI 
 
+## Technical Overview : 
+Utilized Azure Data Factory to orchestrate data pipelines, ingesting raw data into Data Lake Gen2. Leveraged Azure Databricks for data cleaning and transformation, storing refined outputs in a curated Data Lake. Used Azure Synapse Analytics for advanced querying and performance optimization. Finally, visualized insights in Power BI to support data-driven decision-making and business reporting.
 
 
 # Python project: 
