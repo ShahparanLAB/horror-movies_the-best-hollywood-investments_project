@@ -14,7 +14,10 @@ Utilized Azure Data Factory to orchestrate data pipelines, ingesting raw data in
 
 # Python project: 
 
-### Configuration part 
+## Overview:
+Built a Python project to analyze movie financial data using visualizations. Compared worldwide gross with bar charts, explored budget distribution across genres with pie, box, and violin plots, and used heatmaps and histograms to uncover patterns and correlations in revenue metrics.
+
+## Configuration part
 
 ![image](https://github.com/user-attachments/assets/e63c7115-ae10-448b-84c6-7494d27dce56)
 
