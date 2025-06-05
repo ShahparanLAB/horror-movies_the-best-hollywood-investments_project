@@ -1,12 +1,13 @@
 # Horror Movies Hollywood Investment Project
 
 ## Tools Used:
-### 	Data Factory 
-### 	Data Lake Gen2_Raw-Data
-### 	Azure Databricks
-### 	Data Lake Den2_ Transform-Data
-### 	Azure Synapse Analytics 
-### 	PowerBI 
+### 	Data Factory ![image](https://github.com/user-attachments/assets/a22503d9-8f6f-461f-ab3f-16b1c128ad1d)
+### 	Data Lake Gen2_Raw-Data ![image](https://github.com/user-attachments/assets/396bb47b-f082-49ad-a14c-cecb92e3c3f7)
+### 	Azure Databricks ![image](https://github.com/user-attachments/assets/6606a513-1be8-4769-9378-e5a117cb268b)
+### 	Data Lake Den2_ Transform-Data ![image](https://github.com/user-attachments/assets/3cadfd96-1de6-4fa8-99be-44ec2e76274b)
+### 	Azure Synapse Analytics ![image](https://github.com/user-attachments/assets/4cec06e5-393b-4b00-ae0b-6ae6b6d5292e)
+### 	PowerBI  ![image](https://github.com/user-attachments/assets/e82e55fd-44d0-4a39-9c39-fbd8ad154649)
+
 
 ## Technical Overview : 
 Utilized Azure Data Factory to orchestrate data pipelines, ingesting raw data into Data Lake Gen2. Leveraged Azure Databricks for data cleaning and transformation, storing refined outputs in a curated Data Lake. Used Azure Synapse Analytics for advanced querying and performance optimization. Finally, visualized insights in Power BI to support data-driven decision-making and business reporting.
