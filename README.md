@@ -65,7 +65,6 @@ This boxplot visualization, created using Seaborn and Matplotlib, offers a compe
 This analysis presents a comparative visualization of production budgets across various movie genres using Seaborn and Matplotlib. By leveraging boxplots, the study highlights budget distributions for Comedy, Action, Adventure, Drama, and Horror films, offering insights into financial allocation trends within the film industry. The findings provide a clear perspective on budget variations, helping to understand how different genres are financed and produced.
 ![image](https://github.com/user-attachments/assets/911783b2-5d97-4148-aae7-def6e5622df2)
 
-## Summary
 Developed a data-driven Python project to explore movie financials through visual storytelling. Created bar charts to compare worldwide gross per movie and pie charts to illustrate production budget distribution across genres. Used heatmaps to reveal correlations between key financial metrics and histograms to analyze the spread of gross earnings. Enhanced insights further with box plots and violin plots to examine budget patterns and genre-specific distributions.
 
 # Azure Snyape analytaic_SQL Project 
@@ -117,14 +116,33 @@ Developed a data-driven Python project to explore movie financials through visua
 ![image](https://github.com/user-attachments/assets/8cbe3c63-3a09-49c3-9823-5441dd63c690)
 
 
-## Summary:
 We performed a series of insightful SQL queries on a movie dataset from the [HorrorMovieDB].[dbo].[moviedata] table to analyze production budgets, box office performance, genre trends, and distributor impact. Key highlights include identifying top-grossing films, evaluating profitability, filtering data by ratings and genres, and summarizing metrics by year and distributor. These queries demonstrate practical data extraction, aggregation, and optimization skills that support business intelligence and decision-making in the entertainment industry.
 
 
 
+#PowerBI Project Name: Horror Movies Hollywood Investments Project
+
+##📘 Project Overview & Key Highlights
+Time Period: 1936 to 2019
+Scope: This project focuses on analyzing the financial performance of horror movies compared to other genres in Hollywood. 
+It covers total and average revenues, production budgets, MPAA rating influences, genre-wise distributions, and monthly gross trends.
+________________________________________
+🔑 Key Highlights
+1.	🎬 Time Span:
+2.	💰 Total Financials:
+3.	📊 Averages per Movie:
+4.	🎥 Genres Covered:
+5.	🏷 MPAA Ratings Breakdown:
+6.	📅 Monthly Trends:
+________________________________________
+
+![Horror movies hollywood Investment project pbix](https://github.com/user-attachments/assets/149e4222-3c91-482e-81fd-944adc1ec5d4)
 
 
-
-
-
+📘Conclusion
+The Horror Movies Hollywood Investments Project demonstrates the high return-on-investment (ROI) potential of horror films in the Hollywood industry. With only 10 billion USD in total budget, horror films achieved a domestic gross of 69.89 billion USD, rivaling higher-budget genres like Action (65.82bn) and Drama (70.85bn).
+Despite having the lowest production allocation, horror films captured over 22.5% of total domestic gross, showcasing their financial efficiency and audience popularity.
+In contrast, genres like Action (84bn) and Drama (54bn) required significantly higher budgets to achieve similar or only slightly better gross outcomes, revealing a case of diminishing returns on higher investments.
+The MPAA rating analysis further supports strategic planning. PG-13 rated films generated the highest total revenue, likely due to their broader audience reach. Meanwhile, R-rated films, typical for horror, maintained strong performance, proving that age restrictions do not always reduce profitability if targeted correctly.
+Additionally, the monthly performance chart shows a spike in both domestic and worldwide gross during mid-year releases, suggesting seasonal timing is crucial to maximizing revenue.
 
