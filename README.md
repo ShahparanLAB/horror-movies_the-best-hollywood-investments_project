@@ -153,3 +153,43 @@ In contrast, genres like Action (84bn) and Drama (54bn) required significantly h
 The MPAA rating analysis further supports strategic planning. PG-13 rated films generated the highest total revenue, likely due to their broader audience reach. Meanwhile, R-rated films, typical for horror, maintained strong performance, proving that age restrictions do not always reduce profitability if targeted correctly.
 Additionally, the monthly performance chart shows a spike in both domestic and worldwide gross during mid-year releases, suggesting seasonal timing is crucial to maximizing revenue.
 
+------------------------------------------------------------------------------------END---------------------------------------------------------------------------------------------------
+
+     
+   # Overview of the Azure Work Environment
+   ## An End-to-End Azure Data Engineering Project 
+   ### Architectural Overview
+   This architectural overview encapsulates our approach in this data engineering project, emphasizing the role of Azure services in processing and analyzing job market data. The      architecture is designed to ensure that the data pipeline is efficient, secure, and capable of handling the extensive and evolving requirements of job market analysis.
+    
+   ![Pipline](https://github.com/user-attachments/assets/556d52c6-c231-41fb-8aa6-5180922ca3c5)
+
+
+  ## Data Ingestion (Azure Data Factory):
+  ![image](https://github.com/user-attachments/assets/a22503d9-8f6f-461f-ab3f-16b1c128ad1d)
+   Azure Data Factory acts as our platform for data ingestion, enabling the collection of job-related data from diverse sources.
+   Its connectors and scheduling capabilities ensure timely and automated ingestion of data into our pipeline.
+
+  ## Data Storage (Azure Data Lake Gen2): 
+  ![image](https://github.com/user-attachments/assets/396bb47b-f082-49ad-a14c-cecb92e3c3f7)
+   The ingested data is stored in Azure Data Lake Gen2, providing scalable, secure, and cost-effective storage solutions. This is essential for
+   managing the large volume of job market data efficiently
+
+  ## Data Transformation (Azure Databricks): 
+  ![image](https://github.com/user-attachments/assets/6606a513-1be8-4769-9378-e5a117cb268b)
+  Utilize Azure Databricks for robust data transformation. This includes cleansing, normalizing, and enriching the data, preparing 
+  it for detailed analysis by optimizing the data structure and quality.
+
+ ## Data Modeling (Azure Synapse Analytics): 
+ ![image](https://github.com/user-attachments/assets/4cec06e5-393b-4b00-ae0b-6ae6b6d5292e)
+ Azure Synapse Analytics is used for data modeling and analytics. Here,I build comprehensive data models and perform complex SQL-based queries 
+ and analytics to extract insights ifno based on requirements.
+
+ ## Data Visualization (Power BI): 
+ ![image](https://github.com/user-attachments/assets/e82e55fd-44d0-4a39-9c39-fbd8ad154649)
+ Power BI enables us to create interactive dashboards and reports that visually represent the job market insights. This tool helps stakeholders understand 
+ the dynamics of job availability, company growth trends, and required professional skills.
+
+ 
+
+
+
