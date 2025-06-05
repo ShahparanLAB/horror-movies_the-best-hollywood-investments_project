@@ -1,4 +1,4 @@
-# Horror Movies Data Analysis Project
+# Horror Movies Hollywood Investment Project
 
 ## Tools Used:
 ### 	Data Factory 
@@ -115,14 +115,14 @@ Developed a data-driven Python project to explore movie financials through visua
 
 ![image](https://github.com/user-attachments/assets/8cbe3c63-3a09-49c3-9823-5441dd63c690)
 
-
 We performed a series of insightful SQL queries on a movie dataset from the [HorrorMovieDB].[dbo].[moviedata] table to analyze production budgets, box office performance, genre trends, and distributor impact. Key highlights include identifying top-grossing films, evaluating profitability, filtering data by ratings and genres, and summarizing metrics by year and distributor. These queries demonstrate practical data extraction, aggregation, and optimization skills that support business intelligence and decision-making in the entertainment industry.
 
 
 
-#PowerBI Project Name: Horror Movies Hollywood Investments Project
 
-##📘 Project Overview & Key Highlights
+# PowerBI Project Name: Horror Movies Hollywood Investments Project
+
+## 📘 Project Overview & Key Highlights
 Time Period: 1936 to 2019
 Scope: This project focuses on analyzing the financial performance of horror movies compared to other genres in Hollywood. 
 It covers total and average revenues, production budgets, MPAA rating influences, genre-wise distributions, and monthly gross trends.
