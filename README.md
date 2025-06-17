@@ -16,7 +16,6 @@ Utilized Azure Data Factory to orchestrate data pipelines, ingesting raw data in
 
 Built a Python project to analyze movie financial data using visualizations. Compared worldwide gross with bar charts, explored budget distribution across genres with pie, box, and violin plots, and used heatmaps and histograms to uncover patterns and correlations in revenue metrics.
 
-
 ## 🧭 Project Kickoff
 ![1_IcFw74V4sykkJGThPiegIA](https://github.com/user-attachments/assets/e7e2f701-bb69-46e8-b449-358d447cef1d)
 
@@ -70,6 +69,14 @@ It enables seamless read/write operations in Databricks, ensuring efficient data
  Use the following PySpark code to ingest raw horror movies investment data from Azure Blob Storage into Databricks.
 ### 💾 Data 
 ![image](https://github.com/user-attachments/assets/62f02bb2-42f3-4076-9a25-01802efa492b)
+
+# Data Cleaning
+![image](https://github.com/user-attachments/assets/a21108b9-082a-42bd-bce1-141f2a471823)
+![image](https://github.com/user-attachments/assets/893797c9-0b87-4d82-a652-776ff173db90)
+![image](https://github.com/user-attachments/assets/d5c6c1e7-d34e-4970-a74d-eb274fa540cb)
+![image](https://github.com/user-attachments/assets/c69e8e08-4d09-403b-84a0-2ed11cf8b522)
+![image](https://github.com/user-attachments/assets/0f617b49-980a-4cf8-b706-a8d675988d80)
+![image](https://github.com/user-attachments/assets/60e03a79-e93e-4178-beb5-b5e173c1d61f)
 
 
 ## 1. Bar Chart – Compare the worldwide gross of each movie.
