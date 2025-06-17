@@ -1,6 +1,6 @@
 # Horror Movies Hollywood Investment Project
 
-## Tools Used:
+## 💻 Tools Used:
 ![image](https://github.com/user-attachments/assets/7673c57f-5445-461a-b46f-bb9655960afa)
 
  This project showcases an end-to-end data analytics solution tailored for Hollywood movie investments, leveraging the power of Azure Databricks, Azure Synapse SQL, and Power BI. It emphasizes the development of a modern data pipeline designed to uncover insights into automotive investment trends, profitability patterns, and more.
@@ -8,19 +8,19 @@
 ## 🕒 Data Collection Window: 
 This dataset explores Hollywood movie investments from 1940 to 2019, focusing on financial metrics like budgets, grosses, release dates, distributors, ratings, and genres.
 
-## Technical Overview : 
+## 📊 Technical Overview : 
 Utilized Azure Data Factory to orchestrate data pipelines, ingesting raw data into Data Lake Gen2. Leveraged Azure Databricks for data cleaning and transformation, storing refined outputs in a curated Data Lake. Used Azure Synapse Analytics for advanced querying and performance optimization. Finally, visualized insights in Power BI to support data-driven decision-making and business reporting.
 
 
-## - Project Insight: 
+##  📽️ Project Insigh: 
 
 Built a Python project to analyze movie financial data using visualizations. Compared worldwide gross with bar charts, explored budget distribution across genres with pie, box, and violin plots, and used heatmaps and histograms to uncover patterns and correlations in revenue metrics.
 
-## Configuration part
+## ⚙️ Configuration part
 
 ![image](https://github.com/user-attachments/assets/e63c7115-ae10-448b-84c6-7494d27dce56)
 
-### Data 
+### 💾 Data 
 ![image](https://github.com/user-attachments/assets/62f02bb2-42f3-4076-9a25-01802efa492b)
 
 
