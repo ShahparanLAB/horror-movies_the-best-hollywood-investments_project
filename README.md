@@ -12,7 +12,7 @@ This dataset explores Hollywood movie investments from 1940 to 2019, focusing on
 Utilized Azure Data Factory to orchestrate data pipelines, ingesting raw data into Data Lake Gen2. Leveraged Azure Databricks for data cleaning and transformation, storing refined outputs in a curated Data Lake. Used Azure Synapse Analytics for advanced querying and performance optimization. Finally, visualized insights in Power BI to support data-driven decision-making and business reporting.
 
 
-## Project Overview: 
+## - Project Insight: 
 
 Built a Python project to analyze movie financial data using visualizations. Compared worldwide gross with bar charts, explored budget distribution across genres with pie, box, and violin plots, and used heatmaps and histograms to uncover patterns and correlations in revenue metrics.
 
