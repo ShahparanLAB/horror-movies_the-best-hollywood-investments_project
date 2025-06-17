@@ -16,10 +16,58 @@ Utilized Azure Data Factory to orchestrate data pipelines, ingesting raw data in
 
 Built a Python project to analyze movie financial data using visualizations. Compared worldwide gross with bar charts, explored budget distribution across genres with pie, box, and violin plots, and used heatmaps and histograms to uncover patterns and correlations in revenue metrics.
 
-## ⚙️ Configuration part
 
-![image](https://github.com/user-attachments/assets/e63c7115-ae10-448b-84c6-7494d27dce56)
+## 🧭 Project Kickoff
+![1_IcFw74V4sykkJGThPiegIA](https://github.com/user-attachments/assets/e7e2f701-bb69-46e8-b449-358d447cef1d)
 
+1️⃣ Upload Data
+* Store raw CSV files in Azure Blob Storage or Azure Data Lake Gen2.
+  
+2️⃣ Process Data in Databricks
+* Use PySpark or SQL transformations to clean and prepare the data.
+  
+3️⃣ Load Data into Synapse SQL
+* Store cleaned data in Azure Synapse Analytics for fast querying.
+
+4️⃣ Analyze and Visualize in Power BI
+* Connect Synapse SQL to Power BI dashboards for real-time insights.
+
+
+# 🌐 Cloud Ecosystem
+## Azure Databricks → Data ingestion, ETL, and exploratory analysis
+
+## 📡 PySpark Identity Configuration
+The following PySpark code sets up OAuth 2.0 to enable secure access to Azure Data Lake in a Databricks environment.
+
+spark.conf.set("fs.azure.account.auth.type.<storage-account>.dfs.core.windows.net", "OAuth")
+spark.conf.set("fs.azure.account.oauth.provider.type.<storage-account>.dfs.core.windows.net", 
+               "org.apache.hadoop.fs.azurebfs.oauth2.ClientCredsTokenProvider")
+spark.conf.set("fs.azure.account.oauth2.client.id.<storage-account>.dfs.core.windows.net", "<client-id>")
+spark.conf.set("fs.azure.account.oauth2.client.secret.<storage-account>.dfs.core.windows.net", "<client-secret>")
+spark.conf.set("fs.azure.account.oauth2.client.endpoint.<storage-account>.dfs.core.windows.net", "<oauth2-token-endpoint>")
+
+## 🔐 Authentication Setup Details
+- Auth Type: OAuth 2.0 via Azure Active Directory
+- Provider: Client Credentials Token Provider
+- Credentials: Securely uses Client ID and Secret
+- Endpoint: Connects through Azure OAuth URL
+- Purpose: Enables Databricks to access Azure Data Lake securely without exposing credentials in the code
+
+# 🗂️ Access Control Setup for Azure Storage in Databricks
+### Here’s a sample PySpark setup for authenticating access to Azure Data Lake Storage from Databricks.
+
+Establish authentication by specifying the storage account key in the following format:
+spark.conf.set("fs.azure.account.key.carsalesreport.dfs.core.windows.net", "<YOUR_ACCOUNT_KEY>")
+
+This code snippet sets Spark parameters using the Azure Storage account key to establish secure connectivity with the movies Investment report Data Lake.
+It enables seamless read/write operations in Databricks, ensuring efficient data handling across analytics pipelines.
+🔍 Configuration Highlights
+•	✅ Direct Access via Storage Key – Connects Databricks securely to Azure Data Lake
+•	✅ Enables High-Volume Read/Write – Optimized for PySpark-based data engineering
+•	✅ Integrated with Synapse SQL & Power BI – Smooth data flow for analytics and reporting
+
+# 📥 PySpark Load Process from Azure Storage
+ Use the following PySpark code to ingest raw horror movies investment data from Azure Blob Storage into Databricks.
 ### 💾 Data 
 ![image](https://github.com/user-attachments/assets/62f02bb2-42f3-4076-9a25-01802efa492b)
 
